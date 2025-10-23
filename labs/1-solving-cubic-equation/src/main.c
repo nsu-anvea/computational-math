@@ -150,7 +150,7 @@ int main(int argc, char *argv[]) {
     double roots[3];
     int num_roots = solve_cubic(roots, &params);
 
-    printf("\n+---------------------------------------------------------------+\n");
+    printf("+---------------------------------------------------------------+\n");
     printf("|Roots found: %d\n", num_roots);
     for (int i = 0; i < num_roots; i++) {
         printf("|\tx = %.12f\t|f(x)| = %.12e\n", roots[i], fabs(f(roots[i], &params)));
