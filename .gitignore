@@ -1,0 +1,66 @@
+# === Компиляция и бинарные файлы ===
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# === Файлы отладки ===
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# === Временные файлы ===
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# === Файлы логов и отчётов ===
+*.log
+
+# === Конфигурация сборки ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build/
+build*/
+Debug/
+Release/
+dist/
+
+# === Автоматически сгенерированные файлы ===
+*.dep
+*.map
+
+# === IDE и редакторы ===
+# Visual Studio Code
+.vscode/
+# CLion / JetBrains IDEs
+.idea/
+cmake-build-*/
+# Xcode
+*.xcworkspace
+*.xcuserdata/
+DerivedData/
+# Eclipse
+.settings/
+.project
+.cproject
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# === Системные файлы ===
+.DS_Store
+Thumbs.db
+
